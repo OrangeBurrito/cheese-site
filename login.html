@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Log In</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="nav">
+		<h1>Login</h1>
+		<a href="index.html">Home&emsp;</a>
+		<a href="about.html">About</a>
+		<hr>
+	</div>
+
+	<form>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" placeholder="enter username" required>
+		<br><br>
+		<label for="email">Email Adress:</label>
+		<input type="email" id="email" name="email" placeholder="enter email" required>
+		<br><br>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" placeholder="enter password" required33>
+		
+		<p>Select your age</p>
+		 
+		<input type="radio" name="age" value="8 and under" id="option-1">
+		<label for="option-1">8 and under</label>
+		<input type="radio" name="age" value="9-12" id="option-2">
+		<label for="option-2">9-12</label>
+		<input type="radio" name="age" value="13-17" id="option-3">
+		<label for="option-3">13-17</label>
+		<input type="radio" name="age" value="18 and over" id="option-4">
+		<label for="option-4">18 and over</label>
+		<br><br>
+
+		<label for="question">Security question:</label>
+		<select name="question" id="question">
+			<option value="q1">What season is Salmonberry Season?</option>
+			<option value="q2">On which days does the Traveling Cart arrive?</option>
+			<option value="q3">Where can you play Journey of the Prarie King?</option>
+	</select>
+	<br>
+	<label for="answer">Answer:</label>
+	<input type="text">
+	<br><br>
+
+	<label for="bio">Your bio:</label><br>
+	<textarea name="bio" id="bio" cols="30" rows="10"placeholder="about you..."></textarea><br>
+	<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
